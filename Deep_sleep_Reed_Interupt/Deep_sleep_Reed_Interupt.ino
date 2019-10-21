@@ -1,14 +1,3 @@
-/**
- * Author:Ab Kurk
- * version: 1.0
- * date: 24/01/2018
- * Description: 
- * This sketch is part of the beginners guide to putting your Arduino to sleep
- * tutorial. It is to demonstrate how to put your arduino into deep sleep and
- * how to wake it up.
- * Link To Tutorial http://www.thearduinomakerman.info/blog/2018/1/24/guide-to-arduino-sleep-mode
- */
-
 #include <avr/sleep.h>//this AVR library contains the methods that controls the sleep modes
 #define interruptPin 3 //Pin we are going to use to wake up the Arduino
 
